@@ -160,12 +160,3 @@ if __name__ == "__main__":
     print('Precision', precision_score(y_test, y_pred, average='samples', zero_division=0))
     print('Recall: ', recall_score(y_test, y_pred, average='samples'))
     print('F1-score: ', f1_score(y_test, y_pred, average='samples'))
-
-
-
-
-
-
-
-
-
